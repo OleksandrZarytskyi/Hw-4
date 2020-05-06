@@ -1,12 +1,9 @@
 body {
-  background-image: url("../icons/Bg.png");
+  background-image: url(../icons/Bg.png);
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-  color: white;
-  font-size: 14px;
+  background-attachment: local;
+  background-clip: padding-box;
 }
-
 .cloud {
   position: absolute;
   width: 29px;
@@ -14,7 +11,7 @@ body {
   left: 165px;
   top: 55px;
 }
-.clo {
+.cb {
   position: absolute;
   width: 136px;
   height: 22px;
@@ -26,97 +23,38 @@ body {
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
-  text-decoration: none;
 
   display: flex;
   align-items: center;
   text-transform: uppercase;
 
-  color: white;
+  color: #ffffff;
 }
-.ft1 {
+.table ul {
   position: absolute;
-  width: 445px;
+  width: 446px;
   height: 22px;
   left: 498px;
-  top: 63px;
+  top: 52px;
+  display: flex;
+  color: #ffffff;
 }
-.ft2 {
-  position: absolute;
-  width: 445px;
-  height: 22px;
-  left: 598px;
-  top: 63px;
+.table li {
+  margin: 2%;
 }
-.ft3 {
-  position: absolute;
-  width: 445px;
-  height: 22px;
-  left: 698px;
-  top: 63px;
-}
-.ft3 {
-  position: absolute;
-  width: 445px;
-  height: 22px;
-  left: 688px;
-  top: 63px;
-}
-.ft4 {
-  position: absolute;
-  width: 445px;
-  height: 22px;
-  left: 800px;
-  top: 63px;
-}
-.ft5 {
-  position: absolute;
-  width: 445px;
-  height: 22px;
-  left: 880px;
-  top: 63px;
-}
-.nt1 {
-  color: white;
+.table a {
+  font-size: 14px;
+  line-height: 17px;
+  display: block;
+  font-family: "Lato";
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Lato";
-  font-size: 15px;
-  line-height: 17px;
+  font-weight: normal;
+
+  color: #ffffff;
 }
-.nt2 {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Lato";
-  font-size: 15px;
-  line-height: 17px;
-}
-.nt3 {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Lato";
-  font-size: 15px;
-  line-height: 17px;
-}
-.nt4 {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Lato";
-  font-size: 15px;
-  line-height: 17px;
-}
-.nt5 {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Lato";
-  font-size: 15px;
-  line-height: 17px;
-}
-.fleg {
+
+.usa {
   position: absolute;
   width: 32px;
   height: 32px;
@@ -130,7 +68,7 @@ body {
   left: 1099px;
   top: 59px;
 
-  font-family: Lato;
+  font-family: "Lato";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -138,23 +76,24 @@ body {
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  color: white;
+
+  color: #ffffff;
 }
 .vec {
-  position: relative;
+  position: absolute;
   width: 18px;
-  height: 10px;
+  height: 18px;
   left: 1122px;
-  top: 66px;
+  top: 62px;
 }
-.btn {
+.butn {
   position: absolute;
   width: 100px;
   height: 40px;
   left: 1172px;
   top: 50px;
 }
-.button {
+.btn {
   border: 1px solid #ffffff;
   border-radius: 6px;
   font-size: 14px;
@@ -170,7 +109,7 @@ body {
   text-align: center;
   line-height: 40px;
 }
-.sentr {
+h1 {
   position: absolute;
   width: 578px;
   height: 86px;
@@ -189,46 +128,33 @@ body {
 
   color: #ffffff;
 }
-.mid {
+p {
   position: absolute;
   width: 540px;
   height: 124px;
   left: 450px;
   top: 382px;
-  text-align: center;
-}
-.midle {
+
   font-family: "Lato";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 550;
   font-size: 24px;
   line-height: 150%;
-  text-decoration: none;
   text-align: center;
+
   color: #ffffff;
 }
-.butn {
+.butt {
   position: absolute;
   width: 160px;
   height: 50px;
   left: 640px;
   top: 545px;
-}
-.but {
-  border: 1px solid #ffffff;
-  border-radius: 6px;
-  font-size: 14px;
+  border: 0;
+  color: #d52047;
   font-family: "Lato";
-  text-decoration: none;
+  font-weight: 600;
   text-transform: uppercase;
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: normal;
-  display: block;
-  width: 160px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  background-color: white;
-  color: #ed4c5c;
+  background: #ffffff;
+  border-radius: 6px;
 }
