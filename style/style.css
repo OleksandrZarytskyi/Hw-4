@@ -10,7 +10,7 @@ body {
   margin: auto;
 }
 .head {
-  margin-bottom: 27px;
+  margin-bottom: 27 px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -38,7 +38,7 @@ body {
 
 li {
   display: inline;
-  padding: 0 23px 0 0;
+  padding: 0 25px 0 0;
   text-transform: uppercase;
 }
 a {
@@ -48,10 +48,6 @@ a {
 }
 .colon {
   font-weight: bold;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
 }
 .leng {
   display: flex;
@@ -59,7 +55,7 @@ a:hover {
 }
 .usa {
   margin-top: 54px;
-  margin-right: 11px;
+  margin-right: 10px;
 }
 .en {
   line-height: 17px;
@@ -71,7 +67,7 @@ a:hover {
   margin-top: 62px;
 }
 .ling {
-  margin-right: 20px;
+  margin-right: 15px;
   display: flex;
   align-items: center;
 }
@@ -107,7 +103,7 @@ h1 {
   font-weight: bold;
   font-size: 72px;
   line-height: 86px;
-  letter-spacing: 0.05em;
+  letter-spacing: 1px;
   margin-bottom: 38px;
   text-transform: uppercase;
 }
@@ -115,7 +111,7 @@ p {
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
-  max-width: 540px;
+  max-width: 510px;
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 39px;
@@ -131,7 +127,7 @@ p {
   border: 1px solid transparent;
   border-radius: 6px;
   letter-spacing: 0.7px;
-  margin-bottom: 180px;
+  margin-top: 10px;
   text-transform: uppercase;
 }
 .butt:hover {
