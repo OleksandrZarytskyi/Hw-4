@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: local;
   background-clip: content-box;
+  background-size: 100%;
 }
 .cloud {
   position: absolute;
