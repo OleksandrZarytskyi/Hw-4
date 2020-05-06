@@ -3,7 +3,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: local;
   background-clip: content-box;
-  background-size: 100%;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
 }
 .cloud {
   position: absolute;
