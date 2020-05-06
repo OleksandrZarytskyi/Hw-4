@@ -2,7 +2,7 @@ body {
   background-image: url(../icons/Bg.png);
   background-repeat: no-repeat;
   background-attachment: local;
-  background-clip: padding-box;
+  background-clip: content-box;
 }
 .cloud {
   position: absolute;
